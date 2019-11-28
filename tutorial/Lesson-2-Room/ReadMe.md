@@ -1,4 +1,4 @@
-#Lesson 2 - Room Lights
+# Lesson 2 - Room Lights
 
 OK, now that we have basic switches working on an image element card, we're going to go to the next step.   **Room Lighting.**
  
