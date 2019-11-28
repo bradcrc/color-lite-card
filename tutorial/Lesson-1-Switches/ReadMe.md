@@ -34,4 +34,4 @@ Click and hold a dot for the properties screen.
  
   
    
-[Lesson 2](https://github.com/bradcrc/color-lite-card/tree/master/tutorial/Lesson-2-Room)
+[Go on to Lesson 2](https://github.com/bradcrc/color-lite-card/tree/master/tutorial/Lesson-2-Room)
