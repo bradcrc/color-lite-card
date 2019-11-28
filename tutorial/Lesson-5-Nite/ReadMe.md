@@ -1,19 +1,18 @@
+# Lesson 5 - Night Time
 
-dark.png
+[dark](dark.png)
 
 Ok, so we've got our lights working great now.  Our floorplan is dark to show off the lights nicely.
 
+But we aren't just going to use our floorplan at night, and a dark floorplan looks silly and feels wrong if you're viewing it at noon, just as a bright one would seem wrong at night. 
 
-but,  we aren't just going to use our floorplan at night, and a dark floorplan looks silly if you're viewing it at noon. 
-
-
-Let's fix that by adjusting the darkness of our floorplan to match the darkness of the real world.
+Let's fix that by dynamically adjusting the darkness of our floorplan to match the darkness of the real world.
 
 
-We could just use the sun, make things dark at night, and light during the day.
+We could just use the sun -- up or down, make things dark at night, and light during the day.
  
  
-But the sun isn't a switch, so let's do things a bit better,  we'll make a sensor to give us varying degrees of lightness according to the sun's height.  We can get this value from sun.sun which is part of home assistant by default.
+But the sun isn't an on or off switch, it's more gradual.  So let's do things a bit better,  we'll make a sensor to give us varying degrees of lightness according to the sun's height.  We can get this value from sun.sun which is part of home assistant by default.
  
 first we'll build a sensor and put that in the sensor area of our config.yaml.
  
@@ -31,8 +30,7 @@ first we'll build a sensor and put that in the sensor area of our config.yaml.
           {% endif %} 
 		  
 
-Copy the text from sensor.yaml.
-
+Copy the text from [sensor.yaml]().
  
  
 Then we'll replace our dimmer with conditional code that changes the darkness based on the sensor.
@@ -53,6 +51,6 @@ Then we'll replace our dimmer with conditional code that changes the darkness ba
 			  
 			  
 
-bing.   we now have a smarter floorplan.
+bing.   We now have a smarter floorplan.
 
 			  
