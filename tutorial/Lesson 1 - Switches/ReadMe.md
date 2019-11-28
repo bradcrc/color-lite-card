@@ -1,10 +1,9 @@
-#Lesson 1 install and basic switches
+# Lesson 1 - install and basic switches
  
  
 1.  Copy the tutorial folder containing 4 image files to your www folder (create if you don't have one)
 
-	You should have:
-	 
+	You should have:	 
 	 * config/www/tutorial/base.jpg
 	 * config/www/tutorial/dim.png
 	 * config/www/tutorial/lite.png
@@ -23,5 +22,5 @@ That's it.
 
 You now should be able to turn the 3 lights on and off by clicking.
 
-Click and hold for the properties screen.
+Click and hold a dot for the properties screen.
 	
