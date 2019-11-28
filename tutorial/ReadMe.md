@@ -5,3 +5,9 @@ This is a quick and basic tutorial for using the color-lite-card, a custom card 
 
 This tutorial is broken into 5 sections, feel free to skip to lesson 5 for just the summary.
  
+1. Basic setup of a picture elements floor plan with 3 switches.
+2. Adding a dimmable full room light
+3. Adding a dimmable lamp
+4. Adding a color lamp
+5. Adding a sunlight sensor and adjusting floor map brightness based on time of day 
+
