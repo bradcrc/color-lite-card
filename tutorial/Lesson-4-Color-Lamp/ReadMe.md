@@ -15,7 +15,7 @@ For lesson 4, We'll just be adding a couple additional steps to the previous les
 
 4. Set layer opacity to 60%
 
-5. Hide all other layers and export the image as clampcolor.png
+5. Hide all other layers and export the image as clampcolor.png  
  
 6. Export the original non-red layer as clamp.png
 
@@ -25,4 +25,20 @@ For lesson 4, We'll just be adding a couple additional steps to the previous les
             /local/tutorial/clampcolor.png   
 			
 			
-		
+The whole entry will look something like this:
+ 
+        - type: custom:color-lite-card
+          entity: light.left_lamp
+          tap_action:
+            action: none    
+          image:
+            /local/tutorial/clamp.png  
+          color_image:            
+            /local/tutorial/clampcolor.png            
+          style:
+            top: 50%
+            left: 50%
+            width: 100% 
+	    
+	    
+	    
