@@ -24,3 +24,5 @@ You now should be able to turn the 3 lights on and off by clicking.
 
 Click and hold a dot for the properties screen.
 	
+
+![lesson1](lesson1.png)
