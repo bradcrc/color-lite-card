@@ -15,9 +15,9 @@ For lesson 4, We'll just be adding a couple additional steps to the previous les
 
 4. Set layer opacity to 60%
 
-5. Hide all other layers and export the image as clampcolor.png  
+5. Hide all other layers and export the image as **clampcolor.png**  
  
-6. Export the original non-red layer as clamp.png
+6. Export the original non-red layer as **clamp.png**
 
 7. We're going to put the same reference in the yaml file as the previous 2 lessons, but this time, we're adding the following:
 
