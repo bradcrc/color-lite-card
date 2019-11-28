@@ -1,7 +1,9 @@
 # Lesson 1 - install and basic switches
  
 
-For this tutorial we're going to use a simple 3D floorplan image.  The same techniques would work fine with a 2D image, or any other 3D image you might have.   I've not used it, but it seems most people like a software called [sweet home 3d](http://www.sweethome3d.com/) for creating floor plans of their homes.  There is also [home by me](https://home.by.me/en/) or many other options available. You can even work with pictures taken inside your home.  Use whatever you're most comfortable with.  
+For this tutorial we're going to use a simple provided 3D floorplan image. 
+
+The same techniques would work with a 2D floorplan image, or any other 3D image you might have. You could even work with pictures taken inside your home.  I've not used it, but several people have recommended a software called [sweet home 3d](http://www.sweethome3d.com/) for creating floor plans of their homes.  There is also [home by me](https://home.by.me/en/) or many other options available.   Use whatever you're most comfortable with.  
 
 Anyway to keep things quick and basic images are supplied in this and future lessons. 
 
