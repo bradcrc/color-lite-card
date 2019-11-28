@@ -1,4 +1,7 @@
+# Lamp Tutorial
+
 Lets do a lamp.
+
 
 1. Back in GIMP, let's select the base layer of our image
 
@@ -9,8 +12,7 @@ Lets do a lamp.
 3. Paste and hit the new layer button to create a new layer of just the lamp area.
 
 
-4. that's nice, but lets clean it up a bit.   
-
+4. That's nice, but lets clean it up a bit.   
 
 5. Drag the pasted layer to the top.
 
@@ -18,26 +20,26 @@ Lets do a lamp.
 
 7. Find the eraser tool,  set the brush to 55% opacity, 100px size, 0.0 hardness.
 
-eraserbrush.png
+![Eraser](eraserbrush.png)
 
-8. use the eraser to soften the edge of your pasted image away from the walls so it's very softly blended.
+8. Use the eraser to soften the edge of your pasted image away from the walls so it's very softly blended.
 
-edge.png
+![Clean Edges](cleanedge.png)
 
-9. unselect the other layers so you only see your selection.
-
-
-justlamp.png 
+9. De-select the other layers so you only see your selection.
 
 
-10.  file > export as > lamp.png
+![my layer only](justlamp.png)
+
+
+10. **file > export as > lamp.png**
 
 
 
-11. Copy your lamp.png file to the tutorial folder.
+11. Copy your new lamp.png file to the tutorial folder.
  
  
-12. Paste another copy of the yaml as in lesson 2, but with the new entity name and image.
+12. Paste another copy of the same yaml as in lesson 2, but with the new entity name and image.
 
         - type: custom:color-lite-card
           entity: light.right_lamp
@@ -49,3 +51,8 @@ justlamp.png
             top: 50%
             left: 50%
             width: 100%    
+			
+			
+Like the previous lesson,  click on the lamp to turn it on and off, and play with the dimming settings.
+
+			
