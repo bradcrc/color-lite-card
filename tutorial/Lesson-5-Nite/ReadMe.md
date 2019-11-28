@@ -1,8 +1,8 @@
 # Lesson 5 - Night Time
 
-[dark](dark.png)
+![dark](dark.png)
 
-Ok, so we've got our lights working great now.  Our floorplan is dark to show off the lights nicely.
+Ok, we've got our lights working now.  Our floorplan is dark to show off the lights nicely.
 
 But we aren't just going to use our floorplan at night, and a dark floorplan looks silly and feels wrong if you're viewing it at noon, just as a bright one would seem wrong at night. 
 
@@ -30,7 +30,7 @@ first we'll build a sensor and put that in the sensor area of our config.yaml.
           {% endif %} 
 		  
 
-Copy the text from [sensor.yaml]().
+Copy the text from [sensor.yaml](https://github.com/bradcrc/color-lite-card/blob/master/tutorial/Lesson-5-Nite/Lesson-Files/sensor.yaml).
  
  
 Then we'll replace our dimmer with conditional code that changes the darkness based on the sensor.
@@ -51,6 +51,6 @@ Then we'll replace our dimmer with conditional code that changes the darkness ba
 			  
 			  
 
-bing.   We now have a smarter floorplan.
+Bing.   We now have a smarter floorplan that's light during the day and dark at night, with a couple stops in-between.
 
 			  
