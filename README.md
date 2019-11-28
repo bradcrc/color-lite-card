@@ -32,7 +32,7 @@ Path to light image
 #### color_image
 (string)(Optional)
 
-Path to color image for those bulbs which support color
+Path to color image for those bulbs which support color.  Hue rotation is based on a red image, so this should be a saturated red image. [see tutorial](https://github.com/bradcrc/color-lite-card/tree/master/tutorial/Lesson-4-Color-Lamp)
 
 
 ------------
