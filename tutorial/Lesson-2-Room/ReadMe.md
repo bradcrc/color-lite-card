@@ -8,9 +8,10 @@ To do this, we need a room.
 
 1. Download GIMP image editing software from [Gimp.org](http://gimp.org/)
 
-2. Open the lesson2.psd file in gimp
+2. Open the [lesson2.psd](https://github.com/bradcrc/color-lite-card/blob/master/tutorial/Lesson-2-Room/Lesson-Files/lesson2.psd) file in Gimp
 
-3. Use the lasso tool ![lasso](lasso.png)
+3. Use the lasso tool
+![lasso](lasso.png)
 
 4. Click on each point forming lines to select the outline of the office room.  You don't need to draw the lines manually, just click the corners.
 
