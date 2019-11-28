@@ -1,6 +1,6 @@
 # Lesson 5 - Night Time
 
-![dark](dark.png)
+![dark](dark2.png)
 
 Ok, we've got our lights working now.  Our floorplan is dark to show off the lights nicely.
 
@@ -53,7 +53,7 @@ Then we'll replace our dimmer with conditional code that changes the darkness ba
 
 Bing.   We now have a smarter floorplan that's light during the day and dark at night, with a couple stops in-between.
 
-			 
+![day](day.png)			 
 			 
 Now that you have a working set up,  you can start to play with changing the images and entities to get your own custom set up.  
 
