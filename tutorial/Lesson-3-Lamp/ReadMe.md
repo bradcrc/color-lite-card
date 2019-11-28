@@ -59,3 +59,9 @@ Lets do a lamp.
 Like the previous lesson,  click on the lamp to turn it on and off, and play with the dimming settings.
 
 			
+
+
+![room](lesson3.png)
+
+
+[On to Lesson 4](https://github.com/bradcrc/color-lite-card/tree/master/tutorial/Lesson-4-Color-Lamp)
