@@ -31,3 +31,7 @@ Click and hold a dot for the properties screen.
 	
 
 ![lesson1](lesson1.png)
+ 
+  
+   
+[Lesson 2](https://github.com/bradcrc/color-lite-card/tree/master/tutorial/Lesson-2-Room)
