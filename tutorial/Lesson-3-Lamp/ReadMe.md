@@ -5,7 +5,7 @@ Lets do a lamp.
 
 1. Back in GIMP, let's select the base layer of our image
 
-![layer](layer)
+![layer](layer.png)
 
 2. Use the lasso tool to copy the area around our middle lamp
 
@@ -22,7 +22,7 @@ Lets do a lamp.
 
 ![Eraser](eraserbrush.png)
 
-8. Use the eraser to soften the edge of your pasted image away from the walls so it's very softly blended.
+8. Use the eraser to soften the edge of your pasted image away from the walls so it's very softly blended.  I find this is easiest if you show the base and dimmer layers while editing.
 
 ![Clean Edges](cleanedge.png)
 
