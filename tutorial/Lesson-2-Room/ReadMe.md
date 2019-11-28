@@ -1,7 +1,6 @@
+#Lesson 2 - Room Lights
 
-Lesson 2 - Room
-
-OK now that we have basic switches working on an image element card, we're going to go to the next step.   Room Lighting.
+OK, now that we have basic switches working on an image element card, we're going to go to the next step.   **Room Lighting.**
  
  
 To do this, we need a room.
@@ -13,9 +12,9 @@ To do this, we need a room.
 
 3. Use the lasso tool ![lasso](lasso.png)
 
-4. Click on each point to select the outline of the office room.
+4. Click on each point forming lines to select the outline of the office room.  You don't need to draw the lines manually, just click the corners.
 
-![office](office.png)
+![select outline](select.png)
 
 
 5. Copy the room.
@@ -37,17 +36,17 @@ To do this, we need a room.
 9. Copy your office.png file to your /www/tutorial folder with your other images.
 
 
-10. Download color-lite.card.js from 
+10. Download [color-lite.card.js](https://github.com/bradcrc/color-lite-card) from https://github.com/bradcrc/color-lite-card
 
 
-11. Copy the file to your /www/js folder 
+11. Copy the js file to your config/www/js folder 
 
 
 12. Add the following line to the resources area near the top of your ui-lovelace.yaml
 
-			resources:
-			  - url: /local/js/color-lite-card.js
-				type: js
+		resources:
+		  - url: /local/js/color-lite-card.js
+			type: js
 
 
 		
@@ -65,4 +64,9 @@ To do this, we need a room.
               top: 50%
               left: 50%
               width: 100%  		
-		
+	
+	
+	
+That's it!
+ 
+Save your changes and reload your tutorial tab.   Click the dot to turn the light on or off,  click and hold to get the properties screen and dim the bulb.  
