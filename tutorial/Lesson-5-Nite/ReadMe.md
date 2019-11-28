@@ -53,4 +53,8 @@ Then we'll replace our dimmer with conditional code that changes the darkness ba
 
 Bing.   We now have a smarter floorplan that's light during the day and dark at night, with a couple stops in-between.
 
-			  
+			 
+			 
+Now that you have a working set up,  you can start to play with changing the images and entities to get your own custom set up.  
+
+Get your geek on and have some FUN!!!!
