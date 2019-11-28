@@ -1,20 +1,13 @@
 title: Home Assistant
 
-background: center / cover no-repeat url("/local/back.jpg") fixed
 
 resources:
 
-# Get Card-Mod to make background transparent.  Great powerful module
-# available here:  https://github.com/thomasloven/lovelace-card-mod
 
-  - url: /local/js/card-mod.js?v=0.11
-    type: module
-    
+# Copy the .js file to the path below in your config dir
 
-#  Add this line to reference color lite card.  Copy the .js file to the path below in your config dir
   - url: /local/js/color-lite-card.js?v=0.348
     type: js
-    
     
 
 
@@ -27,24 +20,19 @@ views:
     cards:
       - type: picture-elements
         image: /local/floorplan/house.jpg  
-        
-    #   use card-mod to remove card background with CSS
-        
-        style: |
-          ha-card {          
-          background: none;          
-          }
-
-          
           
         elements:
-                  
+        
+        
+        #  This is the light card
+        
+        
           - type: custom:color-lite-card
             entity: light.living_room_lamp   
             image:
-              /local/floorplan/LRLamp.png?v=2   
+              /local/floorplan/Lamp.png   
             color_image:
-              /local/floorplan/LRLampColor.png                            
+              /local/floorplan/LampColor.png           
             style:
               top: 50%
               left: 50%
@@ -52,3 +40,23 @@ views:
 
 
     
+    
+    
+    
+        #  This is the control card.  
+        #  Make sure it is after *all* full screen light cards so its on top.
+    
+    
+          - type: image
+            entity: light.living_room_lamp
+            tap_action:
+              action: toggle
+            state_image:
+              'on': /local/lite.png
+              'off': /local/liteoff.png 
+
+        #  Adjust top/left position so its over the light fixture 
+            style:
+              top: 73.1%
+              left: 42.4%
+              width: 12%

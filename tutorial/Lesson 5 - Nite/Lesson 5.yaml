@@ -1,0 +1,134 @@
+# Near top 
+# LESSON 2 
+resources:
+  - url: /local/js/color-lite-card.js?v=0.354
+    type: js
+
+
+    
+    
+    
+    
+    
+################################################################
+#  Tutorial
+        
+        
+  - title: Tutorial           
+    panel: true    
+    cards:
+      - type: picture-elements
+        image: /local/tutorial/base.jpg  
+        elements:
+
+        
+        # This dims the background to make the lights show up better.   
+
+        - type: image
+          entity: sensor.sun_brightness        
+          image: 
+            /local/tutorial/dim.png 
+          style:
+            top: 50%
+            left: 50%
+            width: 100%        
+          state_filter:
+            "bright": opacity(.0)                    
+            "mid": opacity(.3)                    
+            "dark": opacity(.66)                    
+            "black": opacity(.77)               
+        
+
+
+        #  This must be below dimmer and above switch in the yaml file
+        
+# LESSON 4
+        - type: custom:color-lite-card
+          entity: light.left_lamp
+          tap_action:
+            action: none    
+          image:
+            /local/tutorial/clamp.png  
+          color_image:            
+            /local/tutorial/clampcolor.png            
+          style:
+            top: 50%
+            left: 50%
+            width: 100% 
+
+            
+# LESSON 3
+        
+        - type: custom:color-lite-card
+          entity: light.right_lamp
+          tap_action:
+            action: none    
+          image:
+            /local/tutorial/lamp.png   
+          style:
+            top: 50%
+            left: 50%
+            width: 100%          
+  
+# LESSON 2                
+        - type: custom:color-lite-card
+          entity: light.office_light
+          tap_action:
+            action: none    
+          image:
+            /local/tutorial/office.png   
+          style:
+            top: 50%
+            left: 50%
+            width: 100%          
+
+              
+        
+        
+        
+        
+        
+        
+        # Office Room Dimmable Light Switch
+        
+        - type: image
+          entity: light.office_light
+          tap_action:
+            action: toggle
+          state_image:
+            'on': /local/tutorial/lite.png
+            'off': /local/tutorial/liteoff.png               
+          style:
+            top: 60.5%
+            left: 32%
+            width: 10%              
+
+ 
+        # Dimmable Lamp Switch
+        
+        - type: image
+          entity: light.right_lamp
+          tap_action:
+            action: toggle
+          state_image:
+            'on': /local/tutorial/lite.png
+            'off': /local/tutorial/liteoff.png               
+          style:
+            top: 30%
+            left: 55.3%
+            width: 10%              
+
+        # Dimmable Color Lamp Switch
+        
+        - type: image
+          entity: light.left_lamp
+          tap_action:
+            action: toggle
+          state_image:
+            'on': /local/tutorial/lite.png
+            'off': /local/tutorial/liteoff.png               
+          style:
+            top: 28.5%
+            left: 81.6%
+            width: 10%              
+            

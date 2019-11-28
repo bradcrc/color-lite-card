@@ -1,0 +1,12 @@
+      sun_brightness:
+        friendly_name: "Sun Brightness"
+        value_template: >-
+          {% if state_attr('sun.sun', 'elevation') > 20  %}
+            bright
+          {% elif state_attr('sun.sun', 'elevation') > 9 %}
+            mid    
+          {% elif state_attr('sun.sun', 'elevation') > -3 %}
+            dark                
+          {% else %}
+            black
+          {% endif %} 

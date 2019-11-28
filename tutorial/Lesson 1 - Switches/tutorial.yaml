@@ -1,0 +1,79 @@
+          
+
+################################################################
+#  Tutorial
+#  Paste this text to the bottom of your lovelace .yaml file
+        
+        
+  - title: Tutorial           
+    panel: true    
+    cards:
+      - type: picture-elements
+        image: /local/tutorial/base.jpg  
+        elements:
+
+        
+        # This dims the background to make the lights show up better.   
+        # We'll do more with this later...
+
+        - type: image
+          image: /local/tutorial/dim.png
+          style:
+            top: 50%
+            left: 50%
+            width: 100%       
+            opacity: .5
+        
+        
+        
+
+        # Office Room Dimmable Light Switch
+        
+        - type: image
+          entity: light.office_light
+          tap_action:
+            action: toggle
+          state_image:
+            'on': /local/tutorial/lite.png
+            'off': /local/tutorial/liteoff.png               
+          style:
+            top: 60.5%
+            left: 32%
+            width: 15%              
+
+ 
+ 
+ 
+        # Dimmable Lamp Switch
+        
+        - type: image
+          entity: light.right_lamp
+          tap_action:
+            action: toggle
+          state_image:
+            'on': /local/tutorial/lite.png
+            'off': /local/tutorial/liteoff.png               
+          style:
+            top: 30%
+            left: 55.3%
+            width: 10%              
+
+            
+            
+            
+            
+        # Dimmable Color Lamp Switch
+        
+        - type: image
+          entity: light.left_lamp
+          tap_action:
+            action: toggle
+          state_image:
+            'on': /local/tutorial/lite.png
+            'off': /local/tutorial/liteoff.png               
+          style:
+            top: 28.5%
+            left: 81.6%
+            width: 10%              
+            
+
