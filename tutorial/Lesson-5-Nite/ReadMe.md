@@ -38,7 +38,7 @@ Then we'll replace our dimmer with conditional code that changes the darkness ba
            - type: image
             entity: sensor.sun_brightness        
             image: 
-              /local/floorplan/shade.png 
+              /local/tutorial/shade.png 
             style:
               top: 50%
               left: 50%
