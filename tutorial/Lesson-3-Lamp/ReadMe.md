@@ -11,8 +11,11 @@ Lets do a lamp.
 
 3. Paste and hit the new layer button to create a new layer of just the lamp area.
 
+![lamp](lamp1.png)
 
-4. That's nice, but lets clean it up a bit.   
+4. That's nice, but ugly.  Lets clean it up a bit.   
+
+
 
 5. Drag the pasted layer to the top.
 
