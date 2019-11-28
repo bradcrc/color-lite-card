@@ -1,7 +1,6 @@
+# Lesson 2 - Room
 
-Lesson 2 - Room
-
-OK now that we have basic switches working on an image element card, we're going to go to the next step.   Room Lighting.
+OK, now that we have basic switches working on an image element card, we're going to go to the next step.   **Room Lighting.**
  
  
 To do this, we need a room.
@@ -11,24 +10,25 @@ To do this, we need a room.
 
 2. open the lesson2.psd file in gimp
 
-3. use the lasso tool ![lasso](docs/lasso.png)
+3. use the lasso tool ![lasso](../doc/lasso.png)
 
 4. click on each point to select the outline of the office room.
 
-![office](office.png)
+
+![selected](../doc/select.PNG)
 
 
 5. copy the room.
 
 6. paste into floating layer, then hit the button to make it into a new layer
 
-![new layer](newlayer.png)
+![new layer](../doc/newlayer.png)
 
 
  
 7. Click the eye in front of the base layer to hide it so you only see the room shown.
 
-![room](room.png)
+![room](../doc/room.png)
 
 
 8. File > Export As  > office.png   
@@ -47,7 +47,6 @@ To do this, we need a room.
 
 
 12. add the following line to the resources area near the top of your ui-lovelace.yaml
-
 	resources:
 	  - url: /local/js/color-lite-card.js
 		type: js
