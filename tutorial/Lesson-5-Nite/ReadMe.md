@@ -6,7 +6,7 @@ Ok, we've got our lights working now.  Our floorplan is dark to show off the lig
 
 But we aren't just going to use our floorplan at night, and a dark floorplan looks silly and feels wrong if you're viewing it at noon, just as a bright one would seem wrong at night. 
 
-Let's fix that by dynamically adjusting the darkness of our floorplan to match the darkness of the real world.
+Let's fix that by dynamically adjusting the darkness of our floorplan to match the darkness of the real world.  If you have a light sensor, that would be ideal.  But I don't have one, so there must be another way.
 
 
 We could just use the sun -- up or down, make things dark at night, and light during the day.
@@ -36,7 +36,9 @@ Copy the text from [sensor.yaml](https://github.com/bradcrc/color-lite-card/blob
 Then we'll replace our dimmer with conditional code that changes the darkness based on the sensor.
  
            - type: image
-            entity: sensor.sun_brightness        
+            entity: sensor.sun_brightness 
+            tap_action:
+              action: none 			
             image: 
               /local/tutorial/dim.png 
             style:
