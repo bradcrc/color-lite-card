@@ -1,13 +1,15 @@
 # Lesson 4 - Color Dimmable Lamp
 
-For lesson 4, We'll just be adding a couple additional steps to the previous lesson.
+For lesson 4, We'll just be adding a couple additional steps to the previous lesson. 
+
+A color bulb is set up the same as a regular dimmable bulb, except an additional image is needed for color.  Hue rotation is based on a fully saturated red image so in addition to our normal image we'll need to make a copy that's pure red.
 
 
 
 
-1. Repeat everything you did in lesson 3 but for the remaining lamp. We'll pick up in GIMP after you've got a new layer already copied and smoothed out.
+1. Repeat everything you did in lesson 3 for the remaining lamp. We'll pick up in GIMP after you've got a new layer already copied and smoothed out.
  
-2. Duplicate the layer you just created by right-clicking the layer and picking "duplicate layer" from the popup menu
+2. Duplicate the layer you've just created by right-clicking the layer and picking "duplicate layer" from the popup menu
 
 3. From the color menu, pick "colorize" and set hue to 1,  saturation to 1, and lightness to -0.4
 
