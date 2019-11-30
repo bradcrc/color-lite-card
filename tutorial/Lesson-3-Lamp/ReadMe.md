@@ -7,9 +7,9 @@ Lets do a lamp.
 
 ![layer](layer.png)
 
-2. Use the lasso tool to copy the area around our middle lamp
+2. Use the lasso tool to copy a generous area around our middle lamp
 
-3. Paste and hit the new layer button to create a new layer of just the lamp area.
+3. Paste and hit the new layer button like you did in lesson 2 to create a new layer of just the lamp area.
 
 ![lamp](lamp1.png)
 
@@ -25,7 +25,7 @@ Lets do a lamp.
 
 ![Eraser](eraserbrush.png)
 
-8. Use the eraser to soften the edge of your pasted image away from the walls so it's very softly blended.  I find this is easiest if you show the base and dimmer layers while editing.
+8. Use the eraser to soften the edge of your pasted image away from the walls so it's very softly blended.  I find this is easiest if you show the base and dimmer layers below while editing.
 
 ![Clean Edges](cleanedge.png)
 
@@ -42,7 +42,7 @@ Lets do a lamp.
 11. Copy your new lamp.png file to the tutorial folder.
  
  
-12. Paste another copy of the same yaml as in lesson 2, but with the new entity name and image.
+12. Paste another copy of the same yaml as in lesson 2, but with the new entity name and image.  Remember: full screen images must come before clickable images in your .yaml file.
 
         - type: custom:color-lite-card
           entity: light.right_lamp
