@@ -16,7 +16,7 @@ But the sun isn't an on or off switch, it's more gradual.  So let's do things a 
  
 first we'll build a sensor and put that in the sensor area of our config.yaml.
  
-        sun_brightness:
+      sun_brightness:
         friendly_name: "Sun Brightness"
         value_template: >-
           {% if state_attr('sun.sun', 'elevation') > 20  %}
