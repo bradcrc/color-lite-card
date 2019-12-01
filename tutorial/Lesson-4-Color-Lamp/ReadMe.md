@@ -9,7 +9,9 @@ A color bulb is set up the same as a regular dimmable bulb, except an additional
 
 1. Repeat everything you did in lesson 3 for the remaining lamp. We'll pick up in GIMP after you've got a new layer already copied and smoothed out.
  
-2. Duplicate the layer you've just created by right-clicking the layer and picking "duplicate layer" from the popup menu
+&nbsp; &nbsp; &nbsp;  [back to lesson 3](https://github.com/bradcrc/color-lite-card/tree/master/tutorial/Lesson-3-Lamp)
+ 
+2. Duplicate the new lamp layer you've just created by right-clicking the layer and picking "duplicate layer" from the popup menu
 
 3. From the color menu, pick "colorize" and set hue to 1,  saturation to 1, and lightness to -0.4
 
