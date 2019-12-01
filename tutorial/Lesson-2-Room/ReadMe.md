@@ -73,7 +73,7 @@ That's it!
 Save your changes and reload your tutorial tab.   Click the dot to turn the light on or off,  click and hold to get the properties screen and dim the bulb.  
 
 
-![room](lesson2.png)
+![room](lesson2.gif)
 
 
 [On to Lesson 3](https://github.com/bradcrc/color-lite-card/tree/master/tutorial/Lesson-3-Lamp)
