@@ -48,7 +48,7 @@ The whole entry will look something like this:
 	    
 
 
-![room](lesson4.png)
+![room](lesson4.gif)
 
 
 [On to Lesson 5](https://github.com/bradcrc/color-lite-card/tree/master/tutorial/Lesson-5-Nite)
