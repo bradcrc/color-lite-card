@@ -1,6 +1,8 @@
 # color-lite-card
 Custom card for [Home Assistant](https://www.home-assistant.io/) with color and dimming support. [Config and Image Editing Tutorial](https://github.com/bradcrc/color-lite-card/tree/master/tutorial)
 
+[Youtube: demo video](https://www.youtube.com/watch?v=2RhkEiQ_jrI)
+
 This is a simple custom card for Home Assistant that adds easy support for lights, showing color and dimming in a [picture elements card](https://www.home-assistant.io/lovelace/picture-elements/).
 
 
