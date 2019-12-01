@@ -16,7 +16,7 @@ But the sun isn't an on or off switch, it's more gradual.  So let's do things a 
  
 first we'll build a sensor and put that in the sensor area of our config.yaml.
  
-       sun_brightness:
+      sun_brightness:
         friendly_name: "Sun Brightness"
         value_template: >-
           {% if state_attr('sun.sun', 'elevation') > 20  %}
@@ -35,7 +35,7 @@ Copy the text from [sensor.yaml](https://github.com/bradcrc/color-lite-card/blob
  
 Then we'll replace our dimmer with conditional code that changes the darkness based on the sensor.
  
-           - type: image
+          - type: image
             entity: sensor.sun_brightness 
             tap_action:
               action: none 			
@@ -53,10 +53,10 @@ Then we'll replace our dimmer with conditional code that changes the darkness ba
 			  
 			  
 
-Bing.   We now have a smarter floorplan that's light during the day and dark at night, with a couple stops in-between.
+Bing!   We now have a smarter floorplan that's light during the day and dark at night, with a couple stops in-between.
 
 ![day](day.png)			 
 			 
 Now that you have a working set up,  you can start to play with changing the images and entities to get your own custom set up.  
 
-Get your geek on and have some FUN!!!!
+Get your geek on, get creative, and have some FUN!!!!
