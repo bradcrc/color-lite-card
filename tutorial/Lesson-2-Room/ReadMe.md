@@ -31,7 +31,9 @@ To do this, we need a room.
 ![room](room.png)
 
 
-8. File > Export As  > office.png   
+8. **File > Export As  > office.png**  
+
+     Note: Save the full image including all blank space if you don't want to mess with aligning it later.  Empty space is fine, just make sure your full screen images are below any clickable images by putting them first in your yaml file.
  
 
 9. Copy your office.png file to your /www/tutorial folder with your other images.
