@@ -13,7 +13,7 @@ class ColorLite extends HTMLElement {
 		
 	
 //  if the light is on	
-
+if(state){
 	if(state.state == 'on'){
 	
 		const imageURLId = this.config.image;			
@@ -31,7 +31,7 @@ class ColorLite extends HTMLElement {
 			}
 		}		
 		var bbritef = state.attributes.brightness;	
-		var bbrite = (bbritef / 255);	
+		var bbrite = (bbritef / 205);	
 	
 		this.content.innerHTML = `	
 <!-- Custom Lite Card for x${rgbval}x -->	
@@ -44,7 +44,9 @@ class ColorLite extends HTMLElement {
 	`;			
 	}	
   }  
-  
+}  
+
+
   setConfig(config) {
     if (!config.entity) {
       throw new Error('You need to define an entity');
