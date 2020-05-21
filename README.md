@@ -1,5 +1,8 @@
 ![title](title.gif)
 # color-lite-card
+
+#PLEASE NOTE:  HA 110 Breaks this card.  It is currently only working with versions before .110 !!!
+
 Custom card for [Home Assistant](https://www.home-assistant.io/) with color and dimming support. [Config and Image Editing Tutorial](https://github.com/bradcrc/color-lite-card/tree/master/tutorial)
 
 [Youtube: demo video](https://www.youtube.com/watch?v=2RhkEiQ_jrI)
