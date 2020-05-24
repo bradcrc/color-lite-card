@@ -1,7 +1,6 @@
 ![title](title.gif)
 # color-lite-card
 
-**PLEASE NOTE: The HASS 110 update to Picture Elements card breaks this card.  It is currently only working in picture elements versions prior to .110 !!!**
 
 Custom card for [Home Assistant](https://www.home-assistant.io/) with color and dimming support. [Config and Image Editing Tutorial](https://github.com/bradcrc/color-lite-card/tree/master/tutorial)
 
