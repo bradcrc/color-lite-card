@@ -21,7 +21,9 @@ if(state){
 		const imageURLCId = this.config.color_image;				
 		var rgbval = state.attributes.rgb_color;			
 		var hsval = state.attributes.hs_color;			
-		var hsar = "";			
+		var hsar = "";
+		var min_bright = (this.config.min_brightness * 2.5);
+		var bright = state.attributes.brightness;
 		if (hsval) {
 			if (rgbval != "255,255,255") {				
 				var hsar = ' hue-rotate(' + hsval[0] + 'deg)';			
@@ -30,8 +32,11 @@ if(state){
 				}
 			}
 		}		
-		var bbritef = state.attributes.brightness;	
-		var bbrite = (bbritef / 205);	
+		var bbritef = bright;	
+		if (min_bright > bright) {
+			bbritef = min_bright;
+		}
+		var bbrite = (bbritef / 205);
 	
 		this.content.innerHTML = `	
 <!-- Custom Lite Card for x${rgbval}x -->	
