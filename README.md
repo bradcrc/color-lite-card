@@ -83,7 +83,7 @@ Installation is the same as any custom card.
 
 1. Copy the file [color-lite-card.js](https://github.com/bradcrc/color-lite-card/blob/master/color-lite-card.js) to your /config/www/js/ directory
 
-2. Add the following to the resources area of your ui-lovelace.yaml
+2. Add the following to the resources area of your ui-lovelace.yaml  (or add to resources on the lovelace dashboard)
 
 
             - url: /local/js/color-lite-card.js
