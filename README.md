@@ -87,5 +87,5 @@ Installation is the same as any custom card.
 
 
             - url: /local/js/color-lite-card.js
-              type: js
+              type: module
 
