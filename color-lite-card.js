@@ -10,6 +10,7 @@ class ColorLite extends HTMLElement {
       this.content = document.createElement('div');
       card.appendChild(this.content);
 	  card.style.background = 'none';
+	  card.style.border = 'none';
       this.appendChild(card);
     }
 
