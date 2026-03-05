@@ -67,9 +67,7 @@ Path to color image for those bulbs which support color.  Hue rotation is based 
             tap_action:
               action: none    
             image:
-              /local/floorplan/CLamp.png   
-            color_image:
-              /local/floorplan/CLamp-Color.png                         
+              /local/floorplan/CLamp.png                           
             style:
               top: 50%
               left: 50%
