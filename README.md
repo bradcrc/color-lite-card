@@ -58,22 +58,6 @@ Path to color image for those bulbs which support color.  Hue rotation is based 
               
               
               
-
-## Example Color Light Usage
-
-
-          - type: custom:color-lite-card
-            entity: light.my_color_lamp
-            tap_action:
-              action: none    
-            image:
-              /local/floorplan/CLamp.png                           
-            style:
-              top: 50%
-              left: 50%
-              width: 100% 
-              
-              
               
 # Installation
   
