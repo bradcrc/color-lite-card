@@ -36,7 +36,7 @@ class ColorLite extends HTMLElement {
       const rgb = this._lastColor.rgb;
       const bright = state.attributes.brightness || 0;
       
-      const targetOpacity = (state.state === 'on') ? (bright / 255) * 0.3 : 0;
+      const targetOpacity = (state.state === 'on') ? (bright / 255) * 0.7 : 0;
       const isColor = (hs[1] > 5);
       const targetURL = this.config.image;
       
