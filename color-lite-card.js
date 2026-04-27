@@ -27,7 +27,7 @@ if(state){
 		const imageURLCId = this.config.color_image;
 		var rgbval = state.attributes.rgb_color;
 		var hsval = state.attributes.hs_color;
-		var ctemp = state.attributes.color_temp;
+		var ctemp = state.attributes.color_temp_kelvin;
 		var hsar = "";
 		var min_bright = (this.config.min_brightness * 2.5);
 		var bright = state.attributes.brightness;
