@@ -11,9 +11,9 @@ This is a simple custom card for Home Assistant that adds easy support for light
 
 This card supports both regular white dimmable bulbs, and color bulbs.  
 
-**Requirements:** The referenced light entity must support the 'brightness' attribute for dimming to work, and it must support the 'hs_color' and 'rgb_color' attributes for color to work.
+**Requirements:** The referenced light entity must support the 'brightness' attribute for dimming to work, and it must support the 'color_temp_kelvin', 'hs_color' and 'rgb_color' attributes for color to work.
  
-The card currently only works on browsers that support the css filter element.  Would be very easy for you to add webkit support if you wanted or needed that.
+The card currently only works on browsers that support the css filter element.  Should be easy for you to add webkit support if you need that.
 
 
 ------------
@@ -39,6 +39,8 @@ Path to light image
 
 Path to color image for those bulbs which support color.  Hue rotation is based on a red image, so this should be a saturated red image. [see tutorial](https://github.com/bradcrc/color-lite-card/tree/master/tutorial/Lesson-4-Color-Lamp)
 
+
+If the bulb is a color bulb, and needs color effects, but no separate color image is specified, the card will attempt to use the regular light image. Results on this may vary depending on the original image.
 
 ------------
 
