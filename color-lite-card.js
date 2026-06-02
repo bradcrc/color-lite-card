@@ -26,11 +26,23 @@ class ColorLite extends HTMLElement {
       this._lastColor = { hs: [0, 0], rgb: [255, 255, 255] };
     }
 
-    if (state) {
-      if (state.state === 'on' && state.attributes.hs_color) {
-        this._lastColor.hs = state.attributes.hs_color;
-        this._lastColor.rgb = state.attributes.rgb_color || [255, 255, 255];
-      }
+    const entityId = this.config.entity;
+	const state = hass.states[entityId];
+
+ 
+//  if the light is on
+if(state){
+	if(state.state == 'on'){
+
+		const imageURLId = this.config.image;
+		var ImURL = imageURLId;
+		const imageURLCId = this.config.color_image;
+		var rgbval = state.attributes.rgb_color;
+		var hsval = state.attributes.hs_color;
+		var ctemp = state.attributes.color_temp_kelvin;
+		var hsar = "";
+		var min_bright = (this.config.min_brightness * 2.5);
+		var bright = state.attributes.brightness;
 
       const hs = this._lastColor.hs;
       const rgb = this._lastColor.rgb;
