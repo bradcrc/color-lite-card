@@ -1,5 +1,4 @@
 // COLOR LITE CARD
-
 // Simple custom card for displaying lights on a picture elements floor plan
 
 
@@ -26,39 +25,51 @@ class ColorLite extends HTMLElement {
       this._lastColor = { hs: [0, 0], rgb: [255, 255, 255] };
     }
 
-    const entityId = this.config.entity;
-	const state = hass.states[entityId];
-
- 
-//  if the light is on
-if(state){
-	if(state.state == 'on'){
-
-		const imageURLId = this.config.image;
-		var ImURL = imageURLId;
-		const imageURLCId = this.config.color_image;
-		var rgbval = state.attributes.rgb_color;
-		var hsval = state.attributes.hs_color;
-		var ctemp = state.attributes.color_temp_kelvin;
-		var hsar = "";
-		var min_bright = (this.config.min_brightness * 2.5);
-		var bright = state.attributes.brightness;
+    if (state) {
+      if (state.state === 'on' && state.attributes.hs_color) {
+        this._lastColor.hs = state.attributes.hs_color;
+        this._lastColor.rgb = state.attributes.rgb_color || [255, 255, 255];
+      }
 
       const hs = this._lastColor.hs;
       const rgb = this._lastColor.rgb;
       const bright = state.attributes.brightness || 0;
       
-      const targetOpacity = (state.state === 'on') ? (bright / 255) * 0.7 : 0;
-      const isColor = (hs[1] > 5);
-      const targetURL = this.config.image;
       
+      const targetOpacity = (state.state === 'on') ? (bright / 255) * 0.7 : 0;
+      //const isColor = (hs[1] > 5);
+      
+      const CTKelvin = state.attributes.color_temp_kelvin;
+      const RGBColor = state.attributes.rgb_color;
+      
+      const targetIMG = this.config.image;
+      const targetIMG_Color = this.config.color_image;
+	  
+	    var targetURL = targetIMG;
 
       let filterStr = "";
-      if (isColor) {
-        filterStr = `sepia(1) saturate(300%) hue-rotate(${hs[0] - 50}deg)`;
+ 
+//	  const ColorMode = state.attributes.color_mode;	
+//	  var isColor = false;
+//	  if (ColorMode == "rgb" || ColorMode == "hs" || ColorMode == "xy") {
+//		  isColor = true;		  
+//	  }
+
+	  
+      if (CTKelvin || !RGBColor ) {
+
+        filterStr = `brightness(1.2)`;	
+          
       } else {
-        filterStr = `brightness(1.2) saturate(0%)`;
+          if (targetIMG_Color) {
+            targetURL = targetIMG_Color;
+            filterStr = ` hue-rotate(${hs[0] - 0}deg)`;
+            //var hsar = ' hue-rotate(' + hsval[0] + 'deg)';
+          } else {		  
+            filterStr = `brightness(.4) sepia(4) saturate(1800%) hue-rotate(${hs[0] - 20}deg)`;
+          }
       }
+      
       
       filterStr += ` drop-shadow(0 0 5px rgba(${rgb[0]},${rgb[1]},${rgb[2]},0.2))`;
 
